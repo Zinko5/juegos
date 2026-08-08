@@ -1,0 +1,338 @@
+[
+  {
+    "id": "minecraft",
+    "name": "Minecraft",
+    "min_players": 1,
+    "max_players": 100,
+    "weight_gb": 2,
+    "is_free": false,
+    "graphics": "low",
+    "description": "Explora mundos infinitos y construye cualquier cosa, desde el refugio más simple hasta el castillo más grandioso. Sobrevive solo o con amigos.",
+    "steam_appid": null,
+    "rawg_slug": "minecraft",
+    "cover_image": "https://cdn2.steamgriddb.com/thumb/e353b610e9ce20f963b4cca5da565605.jpg",
+    "bg_image": "https://cdn2.steamgriddb.com/thumb/e353b610e9ce20f963b4cca5da565605.jpg",
+    "platforms": [
+      "pc",
+      "console",
+      "mobile"
+    ]
+  },
+  {
+    "id": "project-zomboid",
+    "name": "Project Zomboid",
+    "min_players": 1,
+    "max_players": 32,
+    "weight_gb": 5,
+    "is_free": false,
+    "graphics": "medium",
+    "description": "El juego definitivo de supervivencia zombie en solitario o cooperativo: construye, fabrica, lucha, cultiva y pesca en una lucha desesperada por sobrevivir.",
+    "steam_appid": 108600,
+    "rawg_slug": "project-zomboid",
+    "cover_image": "https://cdn.akamai.steamstatic.com/steam/apps/108600/header.jpg",
+    "bg_image": "https://cdn.akamai.steamstatic.com/steam/apps/108600/library_hero.jpg",
+    "platforms": [
+      "pc"
+    ]
+  },
+  {
+    "id": "rocket-league",
+    "name": "Rocket League",
+    "min_players": 1,
+    "max_players": 8,
+    "weight_gb": 20,
+    "is_free": true,
+    "graphics": "medium",
+    "description": "¡Fútbol de estilo arcade y caos vehicular de alta potencia! Personaliza tu coche, entra a la cancha y compite en uno de los juegos deportivos más aclamados.",
+    "steam_appid": 252950,
+    "rawg_slug": "rocket-league",
+    "cover_image": "https://cdn.akamai.steamstatic.com/steam/apps/252950/header.jpg",
+    "bg_image": "https://cdn.akamai.steamstatic.com/steam/apps/252950/library_hero.jpg",
+    "platforms": [
+      "pc",
+      "console"
+    ]
+  },
+  {
+    "id": "worms-ultimate-mayhem",
+    "name": "Worms Ultimate Mayhem",
+    "min_players": 1,
+    "max_players": 6,
+    "weight_gb": 2,
+    "is_free": false,
+    "graphics": "low",
+    "description": "El juego definitivo de Worms en 3D. Carga tus armas y experimenta una dimensión completamente nueva en la clásica acción de destrucción de gusanos basada en turnos.",
+    "steam_appid": 70600,
+    "rawg_slug": "worms-ultimate-mayhem",
+    "cover_image": "https://cdn.akamai.steamstatic.com/steam/apps/70600/header.jpg",
+    "bg_image": "https://cdn2.steamgriddb.com/thumb/cf62365fe3fb1f6e44ca45af14daa212.jpg",
+    "platforms": [
+      "pc",
+      "console"
+    ]
+  },
+  {
+    "id": "blur",
+    "name": "Blur",
+    "min_players": 1,
+    "max_players": 20,
+    "weight_gb": 14,
+    "is_free": false,
+    "graphics": "medium",
+    "description": "Carreras intensas con potenciadores destructivos y dinámicas de derrape salvajes. Enfréntate a 20 oponentes en circuitos de todo el mundo.",
+    "steam_appid": 42610,
+    "rawg_slug": "blur",
+    "cover_image": "https://cdn2.steamgriddb.com/thumb/c21721f351b4c39bf61f7d9a987615e5.jpg",
+    "bg_image": "https://cdn2.steamgriddb.com/thumb/c21721f351b4c39bf61f7d9a987615e5.jpg",
+    "platforms": [
+      "pc",
+      "console"
+    ]
+  },
+  {
+    "id": "pinturillo",
+    "name": "Pinturillo",
+    "min_players": 2,
+    "max_players": 12,
+    "weight_gb": 0.1,
+    "is_free": true,
+    "graphics": "low",
+    "description": "Dibuja y adivina con jugadores de todo el mundo en el popular juego web de mesa. ¡Rápido, divertido y apto para cualquier dispositivo!",
+    "steam_appid": null,
+    "rawg_slug": "pinturillo-2",
+    "cover_image": "https://imgs.search.brave.com/LMmMXuZt6shwiOeIWTsS4slH7Ha-zTDB3A9lJ5nklL8/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9saDMu/Z2FtZXMtY2RuLmNv/bS9jei9jYXN1YWwv/NDAxNTUtcGludHVy/aWxsby5qcGVn",
+    "bg_image": "https://imgs.search.brave.com/LMmMXuZt6shwiOeIWTsS4slH7Ha-zTDB3A9lJ5nklL8/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9saDMu/Z2FtZXMtY2RuLmNv/bS9jei9jYXN1YWwv/NDAxNTUtcGludHVy/aWxsby5qcGVn",
+    "platforms": [
+      "pc",
+      "mobile"
+    ]
+  },
+  {
+    "id": "age-of-empires-2-de",
+    "name": "Age of Empires II: Definitive Edition",
+    "min_players": 1,
+    "max_players": 8,
+    "weight_gb": 30,
+    "is_free": false,
+    "graphics": "medium",
+    "description": "Uno de los juegos de estrategia en tiempo real más aclamados de todos los tiempos. Celebra su 20 aniversario con gráficos remasterizados y nuevas civilizaciones.",
+    "steam_appid": 813780,
+    "rawg_slug": "age-of-empires-ii-definitive-edition",
+    "cover_image": "https://cdn.akamai.steamstatic.com/steam/apps/813780/header.jpg",
+    "bg_image": "https://cdn.akamai.steamstatic.com/steam/apps/813780/library_hero.jpg",
+    "platforms": [
+      "pc",
+      "console"
+    ]
+  },
+  {
+    "id": "warcraft-3-tft",
+    "name": "Warcraft III: The Frozen Throne",
+    "min_players": 1,
+    "max_players": 12,
+    "weight_gb": 3,
+    "is_free": false,
+    "graphics": "low",
+    "description": "La legendaria expansión del clásico juego de estrategia en tiempo real de Blizzard. Lucha por el destino de Azeroth comandando orcos, humanos, elfos y muertos vivientes.",
+    "steam_appid": null,
+    "rawg_slug": "warcraft-iii-the-frozen-throne",
+    "cover_image": "https://cdn2.steamgriddb.com/thumb/832688ff5af6c6dfef974773740ef2b5.jpg",
+    "bg_image": "https://cdn2.steamgriddb.com/thumb/832688ff5af6c6dfef974773740ef2b5.jpg",
+    "platforms": [
+      "pc"
+    ]
+  },
+  {
+    "id": "starcraft-2",
+    "name": "StarCraft II",
+    "min_players": 1,
+    "max_players": 8,
+    "weight_gb": 30,
+    "is_free": true,
+    "graphics": "medium",
+    "description": "Estrategia de ciencia ficción definitiva. Domina la galaxia comandando a los Terran, Protoss o Zerg en batallas multijugador hiper-competitivas.",
+    "steam_appid": null,
+    "rawg_slug": "starcraft-ii-wings-of-liberty",
+    "cover_image": "https://cdn2.steamgriddb.com/thumb/b47d7a50e3cd1d014a696436313e9101.jpg",
+    "bg_image": "https://cdn2.steamgriddb.com/thumb/b47d7a50e3cd1d014a696436313e9101.jpg",
+    "platforms": [
+      "pc"
+    ]
+  },
+  {
+    "id": "gartic-phone",
+    "name": "Gartic Phone",
+    "min_players": 4,
+    "max_players": 30,
+    "weight_gb": 0.1,
+    "is_free": true,
+    "graphics": "low",
+    "description": "El teléfono descompuesto con dibujos. Reúne a tus amigos en llamadas de discord o salas de chat y prepárate para reír a carcajadas con los resultados finales.",
+    "steam_appid": null,
+    "rawg_slug": "gartic-phone",
+    "cover_image": "https://cdn2.steamgriddb.com/thumb/ceddc0f48e572cd047d831cb71ed165e.jpg",
+    "bg_image": "https://cdn2.steamgriddb.com/thumb/ceddc0f48e572cd047d831cb71ed165e.jpg",
+    "platforms": [
+      "pc",
+      "mobile"
+    ]
+  },
+  {
+    "id": "smashturbanda",
+    "name": "Smashturbanda",
+    "min_players": 1,
+    "max_players": 4,
+    "weight_gb": 0.5,
+    "is_free": true,
+    "graphics": "low",
+    "description": "¡Un dinámico juego de lucha y acción multijugador local o remoto para hasta 4 jugadores simultáneos! Pesa poco y corre de forma excelente en cualquier máquina.",
+    "steam_appid": null,
+    "rawg_slug": null,
+    "cover_image": "smashturbanda.png",
+    "bg_image": "smashturbanda.png",
+    "platforms": [
+      "pc"
+    ]
+  },
+  {
+    "id": "cs-go",
+    "name": "Counter-Strike: Global Offensive",
+    "min_players": 1,
+    "max_players": 10,
+    "weight_gb": 30,
+    "is_free": true,
+    "graphics": "medium",
+    "description": "El shooter táctico en primera persona por excelencia. Únete a escuadrones de terroristas o antiterroristas y compite en mapas clásicos competitivos.",
+    "steam_appid": 730,
+    "rawg_slug": "counter-strike-global-offensive",
+    "cover_image": "https://cdn.akamai.steamstatic.com/steam/apps/730/header.jpg",
+    "bg_image": "https://cdn.akamai.steamstatic.com/steam/apps/730/library_hero.jpg",
+    "platforms": [
+      "pc"
+    ]
+  },
+  {
+    "id": "left-4-dead-2",
+    "name": "Left 4 Dead 2",
+    "min_players": 1,
+    "max_players": 8,
+    "weight_gb": 13,
+    "is_free": false,
+    "graphics": "medium",
+    "description": "El aclamado cooperativo de acción en primera persona que te lleva a ti y a tus amigos por las ciudades, pantanos y cementerios del Sur Profundo frente a una horda zombie.",
+    "steam_appid": 550,
+    "rawg_slug": "left-4-dead-2",
+    "cover_image": "https://cdn.akamai.steamstatic.com/steam/apps/550/header.jpg",
+    "bg_image": "https://cdn.akamai.steamstatic.com/steam/apps/550/library_hero.jpg",
+    "platforms": [
+      "pc"
+    ]
+  },
+  {
+    "id": "bombsquad",
+    "name": "BombSquad",
+    "min_players": 1,
+    "max_players": 8,
+    "weight_gb": 0.5,
+    "is_free": true,
+    "graphics": "low",
+    "description": "¡Haz estallar a tus amigos en minijuegos que van desde capturar la bandera hasta hockey explosivo! Con físicas divertidas y diversión caótica multijugador.",
+    "steam_appid": null,
+    "rawg_slug": "bombsquad",
+    "cover_image": "https://cdn2.steamgriddb.com/thumb/328c4d97a2309bd4894e36a5e450bb21.jpg",
+    "bg_image": "https://cdn2.steamgriddb.com/thumb/328c4d97a2309bd4894e36a5e450bb21.jpg",
+    "platforms": [
+      "pc",
+      "console",
+      "mobile"
+    ]
+  },
+  {
+    "id": "valorant",
+    "name": "Valorant",
+    "min_players": 1,
+    "max_players": 10,
+    "weight_gb": 30,
+    "is_free": true,
+    "graphics": "medium",
+    "description": "Un shooter táctico de 5 contra 5 basado en personajes que combina puntería precisa con habilidades únicas de agentes. Altamente optimizado para PCs de gama media-baja.",
+    "steam_appid": null,
+    "rawg_slug": "valorant",
+    "cover_image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?q=80&w=600&auto=format&fit=crop",
+    "bg_image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?q=80&w=1200&auto=format&fit=crop",
+    "platforms": [
+      "pc"
+    ]
+  },
+  {
+    "id": "overcooked",
+    "name": "Overcooked!",
+    "min_players": 1,
+    "max_players": 4,
+    "weight_gb": 2,
+    "is_free": false,
+    "graphics": "medium",
+    "description": "Un caótico juego de cocina cooperativo para de uno a cuatro jugadores. Trabajando en equipo, tú y tus compañeros chefs deben preparar sabrosos pedidos.",
+    "steam_appid": 448510,
+    "rawg_slug": "overcooked",
+    "cover_image": "https://cdn.akamai.steamstatic.com/steam/apps/448510/header.jpg",
+    "bg_image": "https://cdn.akamai.steamstatic.com/steam/apps/448510/library_hero.jpg",
+    "platforms": [
+      "pc",
+      "console"
+    ]
+  },
+  {
+    "id": "league-of-legends",
+    "name": "League of Legends",
+    "min_players": 1,
+    "max_players": 10,
+    "weight_gb": 16,
+    "is_free": true,
+    "graphics": "medium",
+    "description": "El MOBA más popular del mundo. Forma equipo con cuatro aliados y enfréntate en batallas estratégicas en tiempo real para destruir el Nexo enemigo.",
+    "steam_appid": null,
+    "rawg_slug": "league-of-legends",
+    "cover_image": "https://cdn2.steamgriddb.com/thumb/bf580a708c65c24be111c367feee1ac5.jpg",
+    "bg_image": "https://cdn2.steamgriddb.com/thumb/bf580a708c65c24be111c367feee1ac5.jpg",
+    "platforms": [
+      "pc"
+    ]
+  },
+  {
+    "id": "brawlhalla",
+    "name": "Brawlhalla",
+    "min_players": 1,
+    "max_players": 8,
+    "weight_gb": 0.8,
+    "is_free": true,
+    "graphics": "low",
+    "description": "Un juego de lucha de plataformas en 2D gratuito donde los guerreros más grandes de la historia se enfrentan en un torneo eterno de proporciones épicas.",
+    "steam_appid": 291550,
+    "rawg_slug": "brawlhalla",
+    "cover_image": "https://cdn.akamai.steamstatic.com/steam/apps/291550/header.jpg",
+    "bg_image": "https://cdn.akamai.steamstatic.com/steam/apps/291550/library_hero.jpg",
+    "platforms": [
+      "pc",
+      "console",
+      "mobile"
+    ]
+  },
+  {
+    "id": "clash-royale",
+    "name": "Clash Royale",
+    "min_players": 1,
+    "max_players": 4,
+    "weight_gb": 0.5,
+    "is_free": true,
+    "graphics": "low",
+    "description": "Juego de estrategia en tiempo real basado en cartas del universo Clash. Lucha en la arena derribando las torres de coronas enemigas en partidas de 3 minutos.",
+    "steam_appid": null,
+    "rawg_slug": "clash-royale",
+    "cover_image": "https://cdn2.steamgriddb.com/thumb/b28f23cc5c222fa13e8c051dbf145d7a.jpg",
+    "bg_image": "https://cdn2.steamgriddb.com/thumb/b28f23cc5c222fa13e8c051dbf145d7a.jpg",
+    "platforms": [
+      "mobile"
+    ]
+  }
+]

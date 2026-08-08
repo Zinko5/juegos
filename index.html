@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bajos Recursos // Catálogo de Juegos</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- CRT Scanline Effect Overlay -->
+  <div class="scanlines"></div>
+
+  <!-- Synthwave Background Scene -->
+  <div class="bg-container"></div>
+  <div class="sunset-sun"></div>
+  
+  <div class="palm-silhouettes">
+    <!-- Left Palm Tree -->
+    <svg class="palm-tree" viewBox="0 0 100 120">
+      <path d="M10,120 Q15,80 30,50 Q45,20 20,20 Q15,20 18,25 Q35,28 35,45 Q15,40 10,50 Q5,60 25,60 Q30,60 32,58 Q20,68 15,80 Q30,78 35,70 Q40,65 38,85 Q28,95 20,105 Q35,98 42,90 Q45,85 43,120 Z"/>
+    </svg>
+    <!-- Right Palm Tree -->
+    <svg class="palm-tree" viewBox="0 0 100 120" style="transform: scaleX(-1);">
+      <path d="M10,120 Q15,80 30,50 Q45,20 20,20 Q15,20 18,25 Q35,28 35,45 Q15,40 10,50 Q5,60 25,60 Q30,60 32,58 Q20,68 15,80 Q30,78 35,70 Q40,65 38,85 Q28,95 20,105 Q35,98 42,90 Q45,85 43,120 Z"/>
+    </svg>
+  </div>
+
+  <!-- 3D Grid Floor -->
+  <div class="grid-floor-container">
+    <div class="grid-floor"></div>
+  </div>
+
+  <!-- Application Layout -->
+  <div class="app-container">
+    <!-- Floating Left Actions Widget -->
+    <div class="floating-left-actions">
+      <!-- Filter Button -->
+      <button id="btn-filter-toggle" class="btn-action-float" aria-label="Filtrar">
+        <svg width="22" height="22" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24">
+          <polygon points="22 3 2 3 10 12.46 10 19 14 21 14 12.46 22 3"></polygon>
+        </svg>
+      </button>
+
+      <!-- Random Button -->
+      <button id="btn-random-game" class="btn-action-float btn-random" aria-label="Al Azar">
+        <svg width="22" height="22" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24">
+          <path d="M16 3h5v5M4 20L21 3M21 16v5h-5M15 15l6 6M4 4l5 5"></path>
+        </svg>
+      </button>
+
+      <!-- Suggest Button -->
+      <button id="btn-suggest-jump" class="btn-action-float btn-suggest" aria-label="Sugerir Juego">
+        <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2.5">
+          <path d="M12 5v14M5 12h14"></path>
+        </svg>
+      </button>
+
+      <!-- Dropdown Filter Panel -->
+      <div id="filter-panel" class="filter-panel">
+        <!-- Players Filter -->
+        <div class="filter-group">
+          <label for="slider-players">Cantidad de Jugadores: <span id="val-players" class="range-val">4</span></label>
+          <div class="range-inputs">
+            <span>1</span>
+            <input type="range" id="slider-players" class="range-slider" min="1" max="20" value="4">
+            <span>20+</span>
+          </div>
+        </div>
+
+        <!-- Weight Filter -->
+        <div class="filter-group">
+          <label for="slider-weight">Peso Máximo: <span id="val-weight" class="range-val">30 GB</span></label>
+          <div class="range-inputs">
+            <span>1 GB</span>
+            <input type="range" id="slider-weight" class="range-slider" min="1" max="50" value="30">
+            <span>50+</span>
+          </div>
+        </div>
+
+        <!-- Price Filter -->
+        <div class="filter-group">
+          <label class="toggle-container">
+            <span>Solo Gratis (F2P)</span>
+            <span class="switch">
+              <input type="checkbox" id="check-free">
+              <span class="slider"></span>
+            </span>
+          </label>
+        </div>
+
+        <!-- Graphics Filter -->
+        <div class="filter-group">
+          <label>Exigencia Gráfica</label>
+          <div class="graphics-options">
+            <button class="btn-option selected" data-option="low">Baja</button>
+            <button class="btn-option selected" data-option="medium">Media</button>
+            <button class="btn-option selected" data-option="high">Alta</button>
+          </div>
+        </div>
+
+        <!-- Platforms Filter -->
+        <div class="filter-group">
+          <label>Plataformas</label>
+          <div class="platforms-options">
+            <button class="btn-platform selected" data-platform="pc">PC</button>
+            <button class="btn-platform selected" data-platform="console">Consola</button>
+            <button class="btn-platform selected" data-platform="mobile">Móvil</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Side navigation dots (rendered dynamically) -->
+    <div id="quick-nav" class="quick-nav" aria-label="Navegación lateral de juegos"></div>
+
+    <!-- Snap Scroll Area -->
+    <main id="main-container"></main>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>

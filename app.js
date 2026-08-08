@@ -407,7 +407,7 @@ document.addEventListener('DOMContentLoaded', () => {
           document.querySelectorAll('.nav-dot').forEach(dot => {
             if (dot.dataset.gameId === gameId) {
               dot.classList.add('active');
-              dot.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+              dot.scrollIntoView({ behavior: 'smooth', block: 'nearest', inline: 'nearest' });
             } else {
               dot.classList.remove('active');
             }

@@ -849,6 +849,8 @@ main {
   .game-content-wrapper {
     grid-template-columns: 1fr;
     gap: 1.5rem;
+    opacity: 1 !important;
+    transform: none !important;
   }
   
   .game-section {
@@ -1019,7 +1021,7 @@ main {
 .form-group input, 
 .form-group select,
 .form-group textarea {
-  background: rgba(27, 20, 100, 0.4);
+  background: #0a0a2e;
   border: 1.5px solid rgba(255, 20, 147, 0.4);
   color: #fff;
   padding: 0.75rem;
@@ -1032,7 +1034,7 @@ main {
 
 .form-group input::placeholder,
 .form-group textarea::placeholder {
-  color: #605090;
+  color: #9d8dc9;
 }
 
 .form-group input:focus, 
